@@ -1,0 +1,23 @@
+{
+  "name": "togglehexrgb",
+  "version": "1.0.0",
+  "description": "toggles hex formatted string to rgb and rgb to hex, automatically detects input format",
+  "keywords": ["convert", "string-conversion", "hex-to-rgb", "rgb-to-hex", "convert-hex-rgb"],
+  "main": "dist/main.cjs.js",
+  "module": "dist/main.esm.js",
+  "browser": "dist/main.umd.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Todd Matheson <tmatheson11186@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
